@@ -1,1 +1,0 @@
-{"rsync":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/dubious/myStack","disabled":false,"owner":"vagrant","group":"vagrant"},"vagrant-cache":{"id":"vagrant-cache","guestpath":"/tmp/vagrant-cache","hostpath":"/home/dubious/myStack/.vagrant/machines/compute1/cache","disabled":false,"owner":"vagrant","group":"vagrant"}}}
