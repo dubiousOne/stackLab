@@ -1,0 +1,6 @@
+---
+- name: run ansible-mgmt bootstrap script
+  command:
+    scripts/bootstrap-ansible.sh
+    creates=/usr/local/bin/openstack-ansible
+    chdir="{{ build_dir}}"

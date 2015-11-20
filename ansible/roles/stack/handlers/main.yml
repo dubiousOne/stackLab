@@ -1,0 +1,9 @@
+---
+- name: restart vm
+  command: shutdown -r now "Ansible restart triggered"
+  async: 0
+  poll: 0
+  ignore_errors: true
+
+- name: wait for vm reboot
+  wait_for: host={{ inventory_hostname }} state=started

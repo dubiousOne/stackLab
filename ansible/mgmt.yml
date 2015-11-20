@@ -1,0 +1,6 @@
+---
+- hosts: mgmt
+  gather_facts: no
+  sudo: yes
+  roles:
+    - mgmt

@@ -1,0 +1,2 @@
+---
+- include: authorized_key.yml

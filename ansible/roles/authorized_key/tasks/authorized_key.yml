@@ -1,0 +1,3 @@
+---
+- name: push id_rsa.pub to nodes
+  authorized_key: user=vagrant key={{ lookup('file', ‘~/.ssh/id_rsa.pub') }} state=present

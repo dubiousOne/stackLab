@@ -1,0 +1,5 @@
+---
+ntp_server: time.oregonstate.edu
+time_zone: America/Los_Angeles
+dns1: 128.193.15.12
+dns2: 128.193.15.13

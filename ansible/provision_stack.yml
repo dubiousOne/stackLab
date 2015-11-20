@@ -1,0 +1,4 @@
+---
+- include: common.yml
+- include: mgmt.yml
+- include: stack.yml

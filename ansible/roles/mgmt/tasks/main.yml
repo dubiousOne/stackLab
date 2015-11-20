@@ -1,0 +1,4 @@
+---
+- include: install_pkgs.yml
+- include: clone_osad_git.yml
+- include: bootstrap_ansible_mgmt.yml

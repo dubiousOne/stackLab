@@ -1,0 +1,15 @@
+---
+- name: install required OSAD infrastructure packages
+  apt:
+    name={{item}}
+    state=installed
+    update_cache=yes
+  with_items:
+    - bridge-utils
+    - debootstrap
+    - ifenslave
+    - ifenslave-2.6
+    - lsof
+    - lvm2
+    - tcpdump
+    - vlan

@@ -1,0 +1,3 @@
+---
+- name: ssh-keyscan
+  shell: ssh-keyscan -f /etc/hosts >> ~/.ssh/known_hosts creates=~/.ssh/known_hosts

@@ -1,0 +1,9 @@
+---
+- name: add OSU NTP
+  template:
+    src=/home/dubious/myStack/ansible/roles/common/templates/ntp.conf.j2
+    dest=/etc/ntp.conf
+
+- name: set time zone
+  command: timedatectl set-timezone {{ time_zone }}
+  notify: restart ntp

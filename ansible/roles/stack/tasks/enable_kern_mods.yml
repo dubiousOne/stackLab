@@ -1,0 +1,9 @@
+---
+- name: enable bonded interfaces
+  modprobe: name=bonding state=present
+
+- name: enable 8021q VLANs 
+  modprobe: name=8021q state=present
+#  notify:
+#    - restart vm
+#    - wait for vm reboot

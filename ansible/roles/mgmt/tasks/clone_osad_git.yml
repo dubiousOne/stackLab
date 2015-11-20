@@ -1,0 +1,8 @@
+---
+- name: clone OSAD "{{ branch }}" git repo
+  git:
+    clone=yes
+    repo={{ git_repo }}
+    version={{ branch }}
+    dest={{ build_dir }}
+    accept_hostkey=yes

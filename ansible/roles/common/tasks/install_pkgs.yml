@@ -1,0 +1,11 @@
+---
+- name: install common OSAD required packages
+  apt:
+    name={{item}}
+    state=installed
+    update_cache=yes
+  with_items:
+    - sudo
+    - ntp
+    - ntpdate
+    - openssh-server
