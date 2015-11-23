@@ -2,6 +2,12 @@
 
 Tested on Ubuntu 14.04
 
+### stuff to fix
++ change project root directory
++ fix hardcoded directories
++ add better host management
++ complete deployment automation (remove README steps)
+
 ## Setup:
 
 1. install latest vagrant
@@ -71,7 +77,7 @@ sudo apt-get install ansible
 10.10.0.41 block1
 ```
 
-1. generate ssh keypair 1.this needs to be fixed, directories are hardcoded!1.
+1. generate ssh keypair *this needs to be fixed, directories are hardcoded!*
 
  ```bash
 ssh-keygen -t rsa
