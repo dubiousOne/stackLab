@@ -77,7 +77,7 @@ sudo apt-get install ansible
 10.10.0.41 block1
 ```
 
-1. generate ssh keypair *this needs to be fixed, directories are hardcoded!*
+1. generate ssh keypair *(this needs to be fixed, directories are hardcoded!)*
 
  ```bash
 ssh-keygen -t rsa
