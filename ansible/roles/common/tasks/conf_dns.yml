@@ -1,7 +1,7 @@
 ---
 - name: add dns servers
   template: 
-    src=~/myStack/ansible/roles/common/templates/tail.j2
+    src=roles/common/templates/tail.j2
     dest=/etc/resolvconf/resolv.conf.d/tail
     owner=root
     group=root
