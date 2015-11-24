@@ -83,6 +83,12 @@ sudo apt-get install ansible
 ssh-keygen -t rsa
 ```
 
+1. clear known_hosts *(shouldn't have to do this)*
+
+ ```bash
+rm -f ~/.ssh/known_hosts
+```
+
 1. run setup.sh
 
  ```bash
